@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="level_ring">
+        <attr name="wide_ring_width" format="dimension" />
+        <attr name="inner_ring_width" format="dimension" />
+        <attr name="level_text_size" format="dimension" />
+    </declare-styleable>
+
+</resources>

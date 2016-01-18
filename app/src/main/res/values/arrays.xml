@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="level_ring_colors">
+        <item>@color/color1</item>
+        <item>@color/color2</item>
+        <item>@color/color3</item>
+        <item>@color/color4</item>
+        <item>@color/color5</item>
+        <item>@color/color6</item>
+        <item>@color/color7</item>
+        <item>@color/color8</item>
+        <item>@color/color9</item>
+        <item>@color/color10</item>
+        <item>@color/color11</item>
+        <item>@color/color12</item>
+        <item>@color/color13</item>
+        <item>@color/color14</item>
+        <item>@color/color15</item>
+        <item>@color/color16</item>
+        <item>@color/color17</item>
+        <item>@color/color18</item>
+        <item>@color/color19</item>
+        <item>@color/color20</item>
+        <item>@color/color21</item>
+        <item>@color/color22</item>
+        <item>@color/color23</item>
+        <item>@color/color24</item>
+        <item>@color/color25</item>
+        <item>@color/color26</item>
+        <item>@color/color27</item>
+        <item>@color/color28</item>
+        <item>@color/color29</item>
+        <item>@color/color30</item>
+    </integer-array>
+
+</resources>

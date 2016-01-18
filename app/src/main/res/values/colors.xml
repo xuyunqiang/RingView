@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="normal_bn">#99CCFF</color>
+    <color name="normal_bn_pressed">#FF4081</color>
+
+    <!-- 积分等级颜色 -->
+    <color name="color1">#ddf666</color>
+    <color name="color2">#daf5a8</color>
+    <color name="color3">#ccf364</color>
+    <color name="color4">#aeed61</color>
+    <color name="color5">#a7e86a</color>
+    <color name="color6">#7ac38c</color>
+    <color name="color7">#7ad375</color>
+    <color name="color8">#6ed681</color>
+    <color name="color9">#5ccc76</color>
+    <color name="color10">#58ce92</color>
+    <color name="color11">#5acc99</color>
+    <color name="color12">#52d8a5</color>
+    <color name="color13">#54e0bb</color>
+    <color name="color14">#60ebe4</color>
+    <color name="color15">#55e4e8</color>
+    <color name="color16">#60e0f9</color>
+    <color name="color17">#53d8f7</color>
+    <color name="color18">#57b2e7</color>
+    <color name="color19">#54a1d5</color>
+    <color name="color20">#578fca</color>
+    <color name="color21">#5685cb</color>
+    <color name="color22">#5771c5</color>
+    <color name="color23">#506db1</color>
+    <color name="color24">#5674ba</color>
+    <color name="color25">#6f71bf</color>
+    <color name="color26">#5c5eb3</color>
+    <color name="color27">#6e5cb2</color>
+    <color name="color28">#705bb6</color>
+    <color name="color29">#9359bf</color>
+    <color name="color30">#ea64d7</color>
+</resources>
