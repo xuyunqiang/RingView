@@ -28,14 +28,14 @@
 ---
 
 ```
-        ringView.setOnFinishListener(new RingView.OnFinishListener() {
-            @Override
-            public void onFinish() {
-                Toast.makeText(getActivity(), "绘制完成", Toast.LENGTH_SHORT).show();
-            }
-        });
+    ringView.setOnFinishListener(new RingView.OnFinishListener() {
+        @Override
+        public void onFinish() {
+            Toast.makeText(getActivity(), "绘制完成", Toast.LENGTH_SHORT).show();
+        }
+    });
 
-        ringView.setLevel(30);
+    ringView.setLevel(30);
 ```
 
 ## 控件效果图
