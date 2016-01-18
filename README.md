@@ -22,6 +22,22 @@
         
     </RelativeLayout>
 ```
+
+## 在代码中的样子
+
+---
+
+```
+        ringView.setOnFinishListener(new RingView.OnFinishListener() {
+            @Override
+            public void onFinish() {
+                Toast.makeText(getActivity(), "绘制完成", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        ringView.setLevel(30);
+```
+
 ## 控件效果图
 ![ringView](http://7xq7wz.com1.z0.glb.clouddn.com/ringView.png)
 
