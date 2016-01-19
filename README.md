@@ -39,5 +39,5 @@
 ```
 
 ## 控件效果图
-![ringView](http://7xq7wz.com1.z0.glb.clouddn.com/ringView.png)
+![ringView](http://7xq7wz.com1.z0.glb.clouddn.com/2016-01-19%2010_34_51.gif)
 
