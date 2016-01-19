@@ -4,8 +4,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 
-import com.github.customview.views.RingViewFragment;
-
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;

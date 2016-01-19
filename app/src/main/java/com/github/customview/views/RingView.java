@@ -36,8 +36,7 @@ public class RingView extends View {
     private float mMarkYPosition;
     private Bitmap mMarkBitmap;
     private Bitmap mTempBitmap;
-    private Canvas mTempCanvas;
-    private Paint mMarkPaint;
+
     private int mState = STATE_NONE;
 
     private Paint mPaintLevel;
@@ -69,6 +68,8 @@ public class RingView extends View {
     private float mLevelTextSize;
 
     private ObjectAnimator mMarkAnimator;
+
+    private OnFinishListener onFinishListener;
 
     public RingView(Context context) {
         this(context, null);
@@ -207,8 +208,6 @@ public class RingView extends View {
      */
     private void setUpMark() {
         mTempBitmap = Bitmap.createBitmap(mWidth, mWidth, Bitmap.Config.ARGB_8888);
-        mTempCanvas = new Canvas(mTempBitmap);
-        mMarkPaint = new Paint();
 
         mMarkBitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.ic_done_white_48dp);
         mMarkXPosition = mWidth / 2 - mMarkBitmap.getWidth() / 2;
@@ -219,7 +218,9 @@ public class RingView extends View {
         mMarkAnimator.addListener(new AnimatorListenerAdapter() {
             @Override
             public void onAnimationEnd(Animator animation) {
-                //全部绘制完成，建议设置一个接口供外界接听
+                if (onFinishListener != null) {
+                    onFinishListener.onFinish();
+                }
             }
         });
     }
@@ -287,5 +288,13 @@ public class RingView extends View {
     public void setCurrentMarkOffset(float currentMarkOffset) {
         this.currentMarkOffset = currentMarkOffset;
         postInvalidate();
+    }
+
+    public void setOnFinishListener(OnFinishListener onFinishListener) {
+        this.onFinishListener = onFinishListener;
+    }
+
+    public interface OnFinishListener {
+        void onFinish();
     }
 }
